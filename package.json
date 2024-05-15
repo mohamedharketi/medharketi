@@ -1,0 +1,28 @@
+{
+  "name": "projetmicro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "FetchData": "node producer.js",
+    "ShowBTCprices": "node consumer.js",
+    "API": "node API.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "@grpc/grpc-js": "^1.10.8",
+    "@grpc/proto-loader": "^0.7.13",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "kafkajs": "^2.2.4",
+    "mongoose": "^8.3.5",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
