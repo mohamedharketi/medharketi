@@ -23,4 +23,4 @@ This project contains 4 micro-services using Node,Grpc,Graphql and Kafka .The pu
 *Price Prediction (Python,GRPC): node prediction.js /PricePrediction.py (after running server)
   *Api Gateway :npm run Api
 
-
+![alt text]([http://url/to/img.png](https://github.com/mohamedharketi/medharketi/blob/main/diagramme.png))
